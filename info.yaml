@@ -1,11 +1,11 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "Tiny-FPU-PC-Interfaced-IEEE-754-FP32-Arithmetic-Engine"      # Project title
+  author:       "Vedant Vasant Kunjar"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Design and implement an IEEE-754 FP32 floating-point arithmetic unit for Tiny Tapeout. The FPU will perform addition, subtraction, and multiplication. The current FPU implementation is non-pipelined. The FPU will be controlled through a UART-based interface. A laptop will be used to enter floating-point numbers and display the calculated result."     
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     100000000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
